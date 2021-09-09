@@ -1,0 +1,86 @@
+{
+  "name": "vue-viking-calendar",
+  "version": "0.1.0",
+  "author": "XiuYuanWang",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xiuyuan-wang/vue-viking-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiuyuan-wang/vue-viking-calendar/issues"
+  },
+  "homepage": "https://github.com/xiuyuan-wang/vue-viking-calendar",
+  "description": "vue 周 月 时间选择器",
+  "main": "lib/vue-viking-calendar.umd.min.js",
+  "keyword": "vue-viking-calendar calendar date-picker datetime-picker time-picker week-picker",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "echo 'exited with 0'",
+    "lib": "vue-cli-service build --target lib --name vue-viking-calendar --dest lib packages/index.js",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 1",
+    "lint": "eslint  --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.4.2",
+    "@better-scroll/mouse-wheel": "^2.4.2",
+    "@better-scroll/pull-down": "^2.4.2",
+    "@better-scroll/pull-up": "^2.4.2",
+    "@better-scroll/slide": "^2.4.2",
+    "vue": "^2.5.17",
+    "vue-ba": "^1.2.5"
+  },
+  "devDependencies": {
+    "@babel/preset-es2015": "^7.0.0-beta.51",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": false
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
