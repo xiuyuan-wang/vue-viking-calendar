@@ -50,7 +50,6 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.0.0",
-    "husky": "^3.1.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.5.16"
@@ -77,12 +76,6 @@
   "config": {
     "commitizen": {
       "path": "cz-customizable"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "browserslist": [
