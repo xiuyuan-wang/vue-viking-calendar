@@ -4,16 +4,14 @@
 
 - 🎉 觉得好用可以给一个 star 哦~~ 🎉
 
-## github 地址：[https://github.com/TangSY/vue-viking-calendar](https://github.com/TangSY/vue-viking-calendar)
-## 码云 gitee 地址：[https://gitee.com/VikingTang/vue-viking-calendar](https://gitee.com/VikingTang/vue-viking-calendar)
-
+## github 地址：[https://github.com/xiuyuan-wang/vue-viking-calendar](https://github.com/xiuyuan-wang/vue-viking-calendar)
 # vue-viking-calendar
 
 - 基于 vue 2.X 开发的日历组件
-- 支持手势滑动操作
+- 支持鼠标滑动操作
 - 原生 js 开发，没引入第三方库
 - 支持快速切换年份和月份
-- 上下滑动 切换 周/月 模式
+- 上下滑动 切换 周/月 模式(点击切换周/月 模式)
   > 【周模式中】 左右滑动可切换 上一周/下一周
   > 【月模式中】 左右滑动可切换 上一月/下一月
 
