@@ -4,10 +4,10 @@
 # 按照惯例，先上效果图
 
 
-![calendar1.png](./calendar1.png)
-![calendar2.png](./calendar2.png)
-![calendar3.png](./calendar3.png)
-![viking-calendar.gif](./viking-calendar.gif)
+![calendar1.png](./public/calendar1.png)
+![calendar2.png](./public/calendar2.png)
+![calendar3.png](./public/calendar3.png)
+![viking-calendar.gif](./public/viking-calendar.gif)
 
 - 🎉 觉得好用可以给一个 star 哦~~ 🎉
 
@@ -185,5 +185,4 @@ disabledTime(date) { // 禁用的时间
 
 - 如果有其他问题， 或者功能上不兼容的。可以 github 提交 issue。
 ## 赞助
-
-![pay.jpg](./public/wxpay.jpg =220x300)
+![wxpay.jpg](./public/wxpay.jpg){:height="220px" width="300px"}
