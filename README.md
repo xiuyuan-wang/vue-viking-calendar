@@ -185,4 +185,4 @@ disabledTime(date) { // 禁用的时间
 
 - 如果有其他问题， 或者功能上不兼容的。可以 github 提交 issue。
 ## 赞助
-<img src="./public/wxpay.jpg" width = "50%" />
+![wxpay.jpg](./public/wxpay.jpg#width-full)
