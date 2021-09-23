@@ -1,8 +1,7 @@
 /**
 * @Description:    右上角github入口
-* @Author:         TSY
-* @Email:          t@tsy6.com
-* @CreateDate:     2019/5/9 23:18
+* @Author:         WXY
+* @CreateDate:     2021/8/11 15:30
 */
 <template>
     <a href="https://github.com/TangSY/vue-hash-calendar" class="github-corner" aria-label="View source on GitHub"

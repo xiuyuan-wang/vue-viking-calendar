@@ -1,13 +1,12 @@
 /**
 * @Description:    通过 slot 实现被标注的日期下面进行备注功能  github issues：https://github.com/TangSY/vue-hash-calendar/issues/19
-* @Author:         TSY
-* @CreateDate:     2019/05/23 00:08
-* @Email:          t@tsy6.com
+* @Author:         WXY
+* @CreateDate:     2021/8/11 15:30
 */
 <template>
   <div class="body">
     <button @click="showCalendarDialog">显示</button>
-    <vue-hash-calendar ref="picker"
+    <vue-viking-calendar ref="picker"
                        model="dialog"
                        :visible.sync="isShowCalendar"
                        :mark-date="markDate"
@@ -16,7 +15,7 @@
         <div>{{scope.date.day}}</div>
         <div v-if="scope.extendAttr.isMarked">标记</div>
       </div>
-    </vue-hash-calendar>
+    </vue-viking-calendar>
     <!--github入口-->
     <github></github>
   </div>

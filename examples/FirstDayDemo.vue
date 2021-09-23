@@ -1,13 +1,12 @@
 /**
 * @Description:    通过 slot 实现将每个月的1号显示为1号，而不是类似【6月】  github issues：https://github.com/TangSY/vue-hash-calendar/issues/23
-* @Author:         TSY
-* @CreateDate:     2020/06/09 21:08
-* @Email:          t@tsy6.com
+* @Author:         WXY
+* @CreateDate:     2021/8/11 15:30
 */
 <template>
   <div class="body">
     <button @click="showCalendarDialog">显示</button>
-    <vue-hash-calendar ref="picker"
+    <vue-viking-calendar ref="picker"
                        model="dialog"
                        :visible.sync="isShowCalendar"
                        picker-type="date">
@@ -15,7 +14,7 @@
         <div v-if="scope.extendAttr.isToday">今</div>
         <div v-else>{{scope.date.day}}</div>
       </div>
-    </vue-hash-calendar>
+    </vue-viking-calendar>
     <!--github入口-->
     <github></github>
   </div>

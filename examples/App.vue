@@ -1,14 +1,13 @@
 /**
 * @Description:    vue-hash-calendar 移动端日期、时间选择插件，日期选择面板以日历形式展示。支持上下滑动切换日期、时间
-* @Author:         TSY
-* @CreateDate:     2019/05/23 00:08
-* @Email:          t@tsy6.com
+* @Author:         WXY
+* @CreateDate:     2021/8/11 15:30
 */
 <template>
   <div class="body">
     <button @click="showCalendarDialog">显示</button>
     <div class="gzt" style="padding:20px">
-    <vue-hash-calendar ref="picker"
+    <vue-viking-calendar ref="picker"
       class="calendar"
                        model="inline"
                        :is-show-arrow="false"
@@ -41,7 +40,7 @@
                             <div class="lunar" style="letter-spacing: 0;font-size: 12px;margin: 6px 0 0 9px;height:17px">{{scope.date.festival || (scope.date.lunar == '初一'? scope.date.lunarMonth : scope.date.lunar)}}</div>
                             <!-- {{scope.date.festival || scope.date.lunarFestival}} -->
                           </div>
-    </vue-hash-calendar>
+    </vue-viking-calendar>
     <div class="sx">
 <!--
         <div class="slide-banner">

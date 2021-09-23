@@ -1,17 +1,16 @@
 /**
 * @Description:    滑动事件监听demo
-* @Author:         TSY
-* @Email:          t@tsy6.com
-* @CreateDate:     2019/11/30 13:29
+* @Author:         WXY
+* @CreateDate:     2021/8/11 15:30
 */
 <template>
     <div class="body">
-        <vue-hash-calendar
+        <vue-viking-calendar
                 @touchstart="touchStart"
                 @touchmove="touchMove"
                 @slidechange="slideChange"
                 @touchend="touchEnd">
-        </vue-hash-calendar>
+        </vue-viking-calendar>
         <!--github入口-->
         <github></github>
     </div>
